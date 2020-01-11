@@ -1,16 +1,16 @@
 <?php
-// header("Access-Control-Allow-Origin: *");
-// header("Access-Control-Allow-Headers: Content-Type");
-// header("Content-Type: application/json");
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: Content-Type");
+header("Content-Type: application/json");
 
-// $rest_json = file_get_contents("php://input");
-// $_POST = json_decode($rest_json, true);
+$rest_json = file_get_contents("php://input");
+$_POST = json_decode($rest_json, true);
 
 // configure
 $from = 'Contact form <danieldsoza10@gmail.com>';
 $sendTo = 'Contact form <danieldsoza10@gmail.com>';
 $subject = 'New message from React App';
-$fields = array('name' => 'Name', 'email' => 'Email','feedback' => 'Feedback'); // array variable name => Text to appear in the email
+$fields = array('name' => 'Name', 'email' => 'Email','message' => 'Message'); // array variable name => Text to appear in the email
 $okMessage = 'Form successfully submitted. Thank you, We will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 

@@ -103,7 +103,7 @@ export default function FinalForm() {
             <Form.Control
               as="textarea"
               value={message}
-              name="feedback"
+              name="message"
               onChange={MessageInput}
               rows="3"
             />
