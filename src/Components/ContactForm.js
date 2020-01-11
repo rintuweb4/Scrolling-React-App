@@ -34,7 +34,7 @@ export default function FinalForm() {
 
       axios
         .post(
-          "https://rintuweb4.github.io/Scrolling-React-App/contact.php ",
+          "https://projects.rintuweb.com/Scrolling-React-App/contact.php ",
           data
         )
         .then(function(response) {
