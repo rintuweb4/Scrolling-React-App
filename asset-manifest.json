@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Scrolling-React-App/static/css/main.1377542c.chunk.css",
+    "main.js": "/Scrolling-React-App/static/js/main.c68e52cf.chunk.js",
+    "main.js.map": "/Scrolling-React-App/static/js/main.c68e52cf.chunk.js.map",
+    "runtime-main.js": "/Scrolling-React-App/static/js/runtime-main.064ac272.js",
+    "runtime-main.js.map": "/Scrolling-React-App/static/js/runtime-main.064ac272.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/Scrolling-React-App/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.70183818.chunk.js": "/Scrolling-React-App/static/js/2.70183818.chunk.js",
+    "static/js/2.70183818.chunk.js.map": "/Scrolling-React-App/static/js/2.70183818.chunk.js.map",
+    "index.html": "/Scrolling-React-App/index.html",
+    "precache-manifest.12f2db401f43ee4d53043f199fed5cdd.js": "/Scrolling-React-App/precache-manifest.12f2db401f43ee4d53043f199fed5cdd.js",
+    "service-worker.js": "/Scrolling-React-App/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/Scrolling-React-App/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.1377542c.chunk.css.map": "/Scrolling-React-App/static/css/main.1377542c.chunk.css.map",
+    "static/js/2.70183818.chunk.js.LICENSE": "/Scrolling-React-App/static/js/2.70183818.chunk.js.LICENSE",
+    "static/media/aboutImage.png": "/Scrolling-React-App/static/media/aboutImage.56da9f99.png",
+    "static/media/applePlaystore.png": "/Scrolling-React-App/static/media/applePlaystore.f5bfbf68.png",
+    "static/media/banner.png": "/Scrolling-React-App/static/media/banner.963a5480.png",
+    "static/media/App.css": "/Scrolling-React-App/static/media/bg-1.9318636e.jpg",
+    "static/media/googlePlaystore.png": "/Scrolling-React-App/static/media/googlePlaystore.5a39305b.png",
+    "static/media/picT1.png": "/Scrolling-React-App/static/media/picT1.fa18c815.png",
+    "static/media/picT2.png": "/Scrolling-React-App/static/media/picT2.3f15c2f4.png",
+    "static/media/picT3.png": "/Scrolling-React-App/static/media/picT3.66779ecc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.064ac272.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.70183818.chunk.js",
+    "static/css/main.1377542c.chunk.css",
+    "static/js/main.c68e52cf.chunk.js"
+  ]
+}
