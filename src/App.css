@@ -89,7 +89,7 @@ h2,
 }
 .slider img {
   position: relative;
-  z-index: 999999999;
+  z-index: 99;
 }
 .carousel-indicators {
   bottom: -45px;
