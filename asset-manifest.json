@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Scrolling-React-App/static/css/main.1377542c.chunk.css",
+    "main.css": "/Scrolling-React-App/static/css/main.31ff1a54.chunk.css",
     "main.js": "/Scrolling-React-App/static/js/main.f7b5a51b.chunk.js",
     "main.js.map": "/Scrolling-React-App/static/js/main.f7b5a51b.chunk.js.map",
     "runtime-main.js": "/Scrolling-React-App/static/js/runtime-main.064ac272.js",
@@ -9,10 +9,10 @@
     "static/js/2.70183818.chunk.js": "/Scrolling-React-App/static/js/2.70183818.chunk.js",
     "static/js/2.70183818.chunk.js.map": "/Scrolling-React-App/static/js/2.70183818.chunk.js.map",
     "index.html": "/Scrolling-React-App/index.html",
-    "precache-manifest.c015cc068c2c84cdaf9f3403436ea7f5.js": "/Scrolling-React-App/precache-manifest.c015cc068c2c84cdaf9f3403436ea7f5.js",
+    "precache-manifest.69cd17e32764f3571814de6c3aec58ac.js": "/Scrolling-React-App/precache-manifest.69cd17e32764f3571814de6c3aec58ac.js",
     "service-worker.js": "/Scrolling-React-App/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/Scrolling-React-App/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.1377542c.chunk.css.map": "/Scrolling-React-App/static/css/main.1377542c.chunk.css.map",
+    "static/css/main.31ff1a54.chunk.css.map": "/Scrolling-React-App/static/css/main.31ff1a54.chunk.css.map",
     "static/js/2.70183818.chunk.js.LICENSE": "/Scrolling-React-App/static/js/2.70183818.chunk.js.LICENSE",
     "static/media/aboutImage.png": "/Scrolling-React-App/static/media/aboutImage.56da9f99.png",
     "static/media/applePlaystore.png": "/Scrolling-React-App/static/media/applePlaystore.f5bfbf68.png",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.064ac272.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.70183818.chunk.js",
-    "static/css/main.1377542c.chunk.css",
+    "static/css/main.31ff1a54.chunk.css",
     "static/js/main.f7b5a51b.chunk.js"
   ]
 }
