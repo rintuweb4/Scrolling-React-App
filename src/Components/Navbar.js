@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Row, Container, Navbar, Nav } from "react-bootstrap";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function TopNavbar() {
   const [expanded, setExpanded] = useState(false);
   const [hamBurgerAnimation, sethamBurgerAnimation] = useState(false);
+  const [contactActive, setcontactActive] = useState("false");
 
   const expendedHandler = () => {
     setExpanded(expanded ? false : "expanded");
@@ -20,6 +21,14 @@ export default function TopNavbar() {
       smooth: "easeOutQuad"
     });
   };
+  useEffect(() => {
+    let windowsScrollTop = window.screen.width;
+    if (windowsScrollTop < 991) {
+      setcontactActive(true);
+    } else if (windowsScrollTop > 992) {
+      setcontactActive(false);
+    }
+  }, []);
   return (
     <>
       <Row className="no-gutters navbarTop">
@@ -28,7 +37,7 @@ export default function TopNavbar() {
           expand="lg"
           variant="light"
           fixed="top"
-          className="pb-0"
+          className="pb-lg-0"
           expanded={expanded}
         >
           <Container>
@@ -41,9 +50,9 @@ export default function TopNavbar() {
               className={hamBurgerAnimation ? "active" : null}
               children={
                 <>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
+                  <span className="icon-bar"></span>
+                  <span className="icon-bar"></span>
+                  <span className="icon-bar"></span>
                 </>
               }
             />
@@ -68,7 +77,7 @@ export default function TopNavbar() {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  className="nav-link ml-sm-2"
+                  className="nav-link ml-lg-2"
                   onClick={expandDefaultHandler}
                 >
                   Features
@@ -81,19 +90,19 @@ export default function TopNavbar() {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  className="nav-link ml-sm-2"
+                  className="nav-link ml-lg-2"
                   onClick={expandDefaultHandler}
                 >
                   Pricing
                 </Link>
                 <Link
                   activeClass="activeLink"
-                  to="contactSection"
+                  to={contactActive ? "contactSection" : " chooseUsSection"}
                   spy={true}
                   smooth={true}
-                  offset={-350}
+                  offset={-150}
                   duration={500}
-                  className="nav-link ml-sm-2"
+                  className="nav-link ml-lg-2"
                   onClick={expandDefaultHandler}
                 >
                   Contact
